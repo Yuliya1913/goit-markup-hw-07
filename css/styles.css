@@ -627,30 +627,30 @@ outline-color: #2196F3;
     color: var(--text-color);
 }
 
-/* сфера діяльності */
+/* -------сфера діяльності------- */
 
-.work-section {
+.work {
  padding-bottom: 94px;
 }
 
-.work-list {
+.work__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 
 }
 
-.work-item {
+.work__item {
     flex-basis: calc((100% - 60px) / 3);
     
 }
 
-.work-img {
+.work__img {
  position: relative;
  
 } 
 
-.work-img::before {
+.work__img::before {
     display: inline-block;
     position: absolute;
     bottom: 0;
@@ -663,7 +663,7 @@ outline-color: #2196F3;
     
 }
 
-.work-text {
+.work__text {
     position: absolute;  
     top: 251px;
     left: 107px;
@@ -679,7 +679,7 @@ outline-color: #2196F3;
 }
 
 
-.work-title, .team-title {
+.work__title, .team__title {
     margin-bottom: 50px;
 
     font-size: 36px;
