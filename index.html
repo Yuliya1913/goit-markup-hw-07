@@ -30,8 +30,8 @@
 
     <header class="heder header__line">
         <div class="heder__container container">
-            <nav class="nav">
-                <a href="./index.html" lang="en" class="logo nav__logo link"> <span class="nav__accent">Web</span>Studio</a>
+            <nav class="nav header__nav">
+                <a href="./index.html" lang="en" class="logo nav__logo link"> <span class="nav__logo--accent">Web</span>Studio</a>
                 <ul class="nav__list">
                     <li class="nav__item"><a href="" class="nav__link nav__link--current link">Студія</a></li>
                     <li class="nav__item"><a href="./portfolio.html" class="nav__link link">Портфоліо</a></li>
@@ -63,7 +63,7 @@
         <section class="section-bg">
                 <div class="section-bg__container container">
                     <h1 class="section-bg__title">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="section-bg__button" data-modal-open >Замовити послугу</button>
+                    <button type="button" class="button section-bg__button" data-modal-open >Замовити послугу</button>
                 </div>
         </section>
     
@@ -393,49 +393,49 @@
     <!--Футер-->
 
     <footer class="footer">
-        <div class="footer-container container">
-            <div class="footer-left">
-                <a href="./index.html" lang="en" class="footer-logo link"><span class="accent">Web</span>Studio</a>
-                <address class="footer-adress">
-                    <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
-                    <ul class="footer-list">
-                        <li ><a href="mailto:info@devstudio.com" class="footer-item indent link">info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111" class="footer-item link">+38 096 111 11 11</a></li>
+        <div class="footer__container container">
+            <div class="left footer__left">
+                <a href="./index.html" lang="en" class="logo footer__logo link"><span class="footer__logo--accent">Web</span>Studio</a>
+                <address class="adress footer__adress">
+                    <p class="adress__text">м. Київ, пр-т Лесі Українки, 26</p>
+                    <ul class="adress__list">
+                        <li ><a href="mailto:info@devstudio.com" class="adress__item indent link">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111" class="adress__item link">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
 
-            <div class="footer-right">
-                <p class="footer-social">приєднуйтесь</p>
-                <ul class="footer-social-list">
-                    <li class="footer-social-item">
-                        <a class="footer-social-link link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+            <div class="center footer__right">
+                <p class="center__text">приєднуйтесь</p>
+                <ul class="center__list">
+                    <li class="center__item">
+                        <a class="center__link link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
                             aria-label="instagram">
-                            <svg class="social-icon" width="20" height="20">
+                            <svg class="center__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item">
-                        <a class="footer-social-link link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                    <li class="center__item">
+                        <a class="center__link link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                             aria-label="twitter">
-                            <svg class="social-icon" width="20" height="20">
+                            <svg class="center__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item">
-                        <a class="footer-social-link link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+                    <li class="center__item">
+                        <a class="center__link link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
                             aria-label="facebook">
-                            <svg class="social-icon" width="20" height="20">
+                            <svg class="center__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item">
-                        <a class="footer-social-link link" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+                    <li class="center__item">
+                        <a class="center__link link" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
                             aria-label="linkedin">
-                            <svg class="social-icon" width="20" height="20">
+                            <svg class="center__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -443,15 +443,15 @@
                 </ul>
             </div>
            
-            <div class="booking-group">
-                <p class="booking-text-form">Підпишіться на розсилку</p>
-                <form class="booking-form">
-                    <label class="booking-label">
-                        <input type="email" class="booking-emai-field" name="user-email" placeholder="E-mail">
+            <div class="group footer__group">
+                <p class="group__text">Підпишіться на розсилку</p>
+                <form class="subscription group__subscription">
+                    <label class="subscription__label">
+                        <input type="email" class="subscription__email" name="user-email" placeholder="E-mail">
                     </label>
-                        <div class="button-booking-fotm">
-                            <button class="button-booking" type="submit">Підписатися</button>
-                                <svg class="plane-booking-fotm" width="24" height="24">
+                        <div class="subscription__wrapper">
+                            <button class="button subscription__button" type="submit">Підписатися</button>
+                                <svg class="subscription-icon" width="24" height="24">
                                   <use href="./images/icons.svg#icon-send"></use>
                                 </svg>
                         </div>

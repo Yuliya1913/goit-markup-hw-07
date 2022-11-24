@@ -378,7 +378,7 @@ outline-color: #2196F3;
     margin-right: 93px;
 }
 
-.nav__accent {
+.nav__logo--accent {
     color: var(--accent-color);
 }
 /* ----------- */
@@ -521,20 +521,22 @@ outline-color: #2196F3;
 
 }
 
-
-
-.section-bg__button {
+.button {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--white-color);
-    background-color: var(--background-color-accent);
     border: none;
     border-radius: 4px;
+    color: var(--white-color);
+    background-color: var(--background-color-accent);
+}
 
+
+.section-bg__button {
+     
     padding: 10px 32px;
     min-width: 216px;
     min-height: 50px;
@@ -831,37 +833,40 @@ outline-color: #2196F3;
 
 }
 
-.footer-left {
- width: 231px;
- margin-right: 70px;
-} 
 
-.footer-container {
+
+.footer__container {
     display: flex;
     
     
 }
 
-.footer-logo {
+
+.footer__left {
+    width: 231px;
+    margin-right: 70px;
+}
+
+.footer__logo {
     display: flex;
     align-items: baseline;
     margin-bottom: 20px;
     display: block;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+   
     color: var(--white-color);
 }
 
+.footer__logo--accent {
+    color: var(--accent-color);
+}
 
-.footer-adress {
+
+.footer__adress {
     font-style: normal;
    
 }
 
-.footer .footer-text {
+.adress__text {
     margin-bottom: 9px;
 
     font-size: 14px;
@@ -870,7 +875,7 @@ outline-color: #2196F3;
     color: var(--white-color);
 }
 
-.footer-list .footer-item {
+.adress__list .adress__item {
     display: block;
     
     font-style: normal;
@@ -883,17 +888,17 @@ outline-color: #2196F3;
   
 }
 
-.footer-list .footer-item:hover,
-.footer-list .footer-item:focus {
+.adress__list .adress__item:hover,
+.adress__list .adress__item:focus {
     color: var(--accent-color);
 } 
 
-.footer-right {
+.footer__right {
     padding-top: 12px;
     margin-right: 93px;
 }
 
-.footer-social {
+.center__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -904,14 +909,14 @@ outline-color: #2196F3;
     
 }
 
-.footer-social-list {
+.center__list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.footer-social-link {
+.center__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -923,30 +928,25 @@ outline-color: #2196F3;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-icon {
- color: currentColor;
+.center__icon {
+ fill: currentColor;
     
 }
 
-.footer-social-link:focus,
-.footer-social-link:hover {
+.center__link:focus,
+.center__link:hover {
     background-color: #188CE8;
 
 }
 
 /* Forma */
 
-.booking-group {
+.footer__group {
     padding-top: 12px;
 }
 
-.booking-form {
-    display: flex;
-    gap: 12px;
-    position: relative;
-}
 
-.booking-text-form {
+.group__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -957,7 +957,13 @@ outline-color: #2196F3;
     margin-bottom: 20px;
 }
 
-.booking-emai-field {
+.group__subscription {
+    display: flex;
+    gap: 12px;
+    position: relative;
+}
+
+.subscription__email {
     width: 358px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -973,12 +979,12 @@ outline-color: #2196F3;
    
 }
 
-.booking-emai-field:focus, .booking-emai-field:hover{
+.subscription__email:focus, .subscription__email:hover{
     outline-color: #2196F3;
     
 }
 
-.booking-emai-field::placeholder {
+.subscription__email::placeholder {
     
     font-weight: 400;
     font-size: 16px;
@@ -992,12 +998,13 @@ outline-color: #2196F3;
 }
  
 
-.button-booking-fotm {
+.subscription__wrapper {
 position: relative;
 
-}
+} 
 
-.button-booking {
+
+.subscription__button {
     display: inline-block;
     margin: 0 auto;
     width: 200px;
@@ -1005,18 +1012,9 @@ position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 62px;
-    border: none;
     
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-              
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    color: #FFFFFF;
-    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
@@ -1024,14 +1022,14 @@ position: relative;
 
 
 
-.button-booking:hover,
-.button-booking:focus {
+.subscription__button:hover,
+.subscription__button:focus {
     background-color: var(--background-color-aktive);
     text-shadow: 0px 4px 4px #000000;
 
 }
 
-.plane-booking-fotm {
+.subscription-icon {
    position:absolute;
    top: 30%;
    left: 148px;
