@@ -573,13 +573,13 @@ outline-color: #2196F3;
 
 
 
-.activity {
+.requirement {
     padding-top: 94px;
     
 }
 
 
-.activity__list {
+.requirement__activity {
     display: flex;
     
 }
@@ -631,11 +631,11 @@ outline-color: #2196F3;
 
 /* -------сфера діяльності------- */
 
-.work {
+.offer {
  padding-bottom: 94px;
 }
 
-.work__list {
+.offer__work {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -681,7 +681,7 @@ outline-color: #2196F3;
 }
 
 
-.work__title, .team__title {
+.offer__title, .cart__title {
     margin-bottom: 50px;
 
     font-size: 36px;
@@ -693,11 +693,11 @@ outline-color: #2196F3;
 
 /* -------Склад команды -------*/
 
-.team {
+.cart {
     background-color: var(--background-color-secondary);
 }
 
-.team__box {
+.cart__team {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -1047,7 +1047,9 @@ position: relative;
  padding-bottom: 94px;
 }
 
-/*button*/
+
+/*filter*/
+
 .portfolio__filter {
     display: flex;
     align-items: center;
@@ -1055,8 +1057,6 @@ position: relative;
     justify-content: center;
   
 }
-
-
 
 .filter__button {
     padding-top: 6px;
@@ -1087,37 +1087,37 @@ position: relative;
  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.project-list {
+.portfolio__project {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.project-item {
+.project__item {
     flex-basis: calc((100% - 60px) / 3);
 
 }
 
-.project-link {
+.project__link {
     display: block;
        
 }
 
-.project-link:hover,
-.project-link:focus {
+.project__link:hover,
+.project__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
-.project-thumb {
+.project__thumb {
     position: relative;
     overflow: hidden;
 }
 
 
-.project-overlay {
+.project__overlay {
     position: absolute;
     display: inline-block;
     content: "";
@@ -1131,11 +1131,11 @@ position: relative;
     
 }
 
-.project-link:hover .project-overlay {
+.project__link:hover .project__overlay {
     transform: translateY(0);
 }
 
-.project-link-text {
+.project__desc {
     
     position: absolute;
     top: 0;
@@ -1151,7 +1151,7 @@ position: relative;
 
 
 
-.project-infa {
+.project__infa {
     padding: 24px;
     border-left: 1px solid var(--border-portfolio);
     border-right: 1px solid var(--border-portfolio);
@@ -1159,7 +1159,7 @@ position: relative;
 }
 
 
-.project-title {
+.project__title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -1167,7 +1167,7 @@ position: relative;
     margin-bottom: 4px;
 }
 
-.project-text {
+.project__text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
