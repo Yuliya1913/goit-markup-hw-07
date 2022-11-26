@@ -762,7 +762,7 @@ activity {
 
 /* footer */
 
-.footer {
+/* .footer {
     padding-top: 72px;
     padding-bottom: 60px;
     background-color: var(--background-color-third);
@@ -775,12 +775,14 @@ activity {
     display: flex;
     
     
-}
+} */
 
+/* .left {
+width: 231px;
+} */
 
-.footer__left {
-    width: 231px;
-    margin-right: 70px;
+/* .footer__left {
+   margin-right: 70px;
 }
 
 .footer__logo {
@@ -794,10 +796,10 @@ activity {
 
 .footer__logo--accent {
     color: var(--accent-color);
-}
+} */
 
 
-.footer__adress {
+/* .adress {
     font-style: normal;
    
 }
@@ -827,7 +829,7 @@ activity {
 .adress__list .adress__item:hover,
 .adress__list .adress__item:focus {
     color: var(--accent-color);
-} 
+}  */
 
 .footer__right {
     padding-top: 12px;

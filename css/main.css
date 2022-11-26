@@ -521,4 +521,67 @@ img {
 
 .clients__icon {
   fill: currentColor;
+}
+
+.footer {
+  padding-top: 72px;
+  padding-bottom: 60px;
+  background-color: var(--background-color-third);
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__left {
+  margin-right: 70px;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 20px;
+  display: block;
+  color: var(--white-color);
+}
+
+.footer__logo--accent {
+  color: var(--accent-color);
+}
+
+.left {
+  width: 231px;
+}
+
+.adress {
+  font-style: normal;
+}
+
+.adress__text {
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.adress__item {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: color var(--anim-fast);
+  transition: color var(--anim-fast);
+}
+.adress__item:hover, .adress__item:focus {
+  color: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */
