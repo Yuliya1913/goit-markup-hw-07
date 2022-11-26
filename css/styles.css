@@ -46,7 +46,7 @@
  
 /* reset style */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -70,7 +70,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 
 .container {
     width: 1200px;
