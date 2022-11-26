@@ -713,7 +713,7 @@ activity {
 
 /*  Постійні клієнти*/
 
-.clients__title {
+/* .clients__title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -757,7 +757,7 @@ activity {
     color: var(--accent-color);
     border-color: var(--border-color-aktive);
        
-}
+} */
 
 
 /* footer */
