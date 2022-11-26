@@ -1,13 +1,27 @@
 //util style
-
 @import './utils/variables';
 @import './utils/visually-hidden';
 
 //base style
-
 @import './base/base';
 @import './base/reset';
 
-//component
 
-// 
+//component
+@import './components/container';
+@import './components/section';
+@import './components/header';
+@import './components/nav';
+@import './components/logo';
+@import './components/button';
+@import './components/section-bg';
+@import './components/requirement';
+@import './components/activity';
+@import './components/offer';
+@import './components/work';
+@import './components/cart';
+@import './components/team'
+
+
+
+
