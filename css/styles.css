@@ -831,12 +831,12 @@ width: 231px;
     color: var(--accent-color);
 }  */
 
-.footer__right {
+/* .footer__right {
     padding-top: 12px;
     margin-right: 93px;
-}
+} */
 
-.center__text {
+/* .center__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -875,7 +875,7 @@ width: 231px;
 .center__link:hover {
     background-color: var(--background-color-aktive);
 
-}
+} */
 
 /* Forma */
 
@@ -883,6 +883,9 @@ width: 231px;
     padding-top: 12px;
 }
 
+/* .group {
+width: 570px; 
+}
 
 .group__text {
     font-weight: 700;
@@ -893,9 +896,9 @@ width: 231px;
 
     color: var(--white-color);
     margin-bottom: 20px;
-}
+} */
 
-.group__subscription {
+/* .subscription {
     display: flex;
     gap: 12px;
     position: relative;
@@ -972,7 +975,7 @@ position: relative;
    top: 30%;
    left: 148px;
  
-}
+} */
 
 
 /*----------------------Портфоліо------------------ */
