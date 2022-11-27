@@ -27,7 +27,7 @@
 
 /* -------Модальне вікно */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -43,9 +43,9 @@
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-}
+} */
 
-.modal {
+/* .modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,14 +58,14 @@
     border-radius: 4px;
     transform: translate(-50%, -50%) scale(1);
     transition: transform var(--anim-fast);
-}
+} */
 
-.backdrop.is-hidden .modal {    
+/* .backdrop.is-hidden .modal {    
     transform: translate(-50%, -50%) scale(0.8);
     
-}
+} */
 
-.close {
+/* .close {
     cursor: pointer;
     border-radius: 50%;
     width: 30px;
@@ -76,23 +76,23 @@
     justify-content: center;
     align-items: center;
     padding: 0;
-}
+} */
 
 
 
-.modal__close {
+/* .modal__close {
     position: absolute;
     top: 8px;
     right: 8px;
   
-}
+} */
 
-.close__icon {
+/* .close__icon {
     background-color: inherit;
     transition: fill var(--anim-fast);
-}
+} */
 
-.modal__close:focus, 
+/* .modal__close:focus, 
 .modal__close:hover {
     fill: var(--accent-color);
     
@@ -107,11 +107,11 @@
 
     color: var(--primary-text-color);
     margin-bottom: 12px;
-}
+} */
 
 
 
-.name__data {
+/* .name__data {
     margin-bottom: 20px;
     
 }
@@ -191,10 +191,10 @@ outline-color: var(--accent-color);
     letter-spacing: 0.01em;
     
     color: rgba(117, 117, 117, 0.5);
-}
+} */
 
 
-.data__checkbox {
+/* .data__checkbox {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -270,7 +270,7 @@ outline-color: var(--accent-color);
 .data__btn:focus {
     background: var(--background-color-aktive);
     
-}
+} */
 
 
 
@@ -879,9 +879,9 @@ width: 231px;
 
 /* Forma */
 
-.footer__group {
+/* .footer__group {
     padding-top: 12px;
-}
+} */
 
 /* .group {
 width: 570px; 
@@ -982,16 +982,16 @@ position: relative;
 
 /* section-portfolio */
 
-.portfolio {
+/* .portfolio {
  background-color: var(--background-color);
  padding-top: 100px;
  padding-bottom: 94px;
-}
+} */
 
 
 /*filter*/
 
-.portfolio__filter {
+/* .portfolio__filter {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
@@ -1026,9 +1026,9 @@ position: relative;
  color: var(--white-color);
  background-color: var(--accent-color);
  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
+} */
 
-.portfolio__project {
+/* .project {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -1114,4 +1114,4 @@ position: relative;
     letter-spacing: 0.03em;
     color: var(--text-color);
     
-}
+} */

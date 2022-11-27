@@ -10,10 +10,8 @@
 //component
 @import './components/container';
 @import './components/section';
-@import './components/header';
-@import './components/nav';
-@import './components/logo';
-@import './components/button';
+@import './components/header/header';
+@import './components/header/nav';
 @import './components/section-bg';
 @import './components/requirement';
 @import './components/activity';
@@ -22,14 +20,24 @@
 @import './components/cart';
 @import './components/team';
 @import './components/clients';
-@import './components/footer';
-@import './components/left';
-@import './components/adress';
-@import './components/center';
-@import './components/group';
-@import './components/subscription';
+@import './components/footer/footer';
+@import './components/footer/left';
+@import './components/footer/adress';
+@import './components/footer/center';
+@import './components/footer/group';
+@import './components/footer/subscription';
 
+// portfolio
 
+@import './components/portfolio/portfolio';
+@import './components/portfolio/filter';
+@import './components/portfolio/project';
 
+// modal window
+@import './components/modal-window/bacdrop';
+@import './components/modal-window/modal';
+@import './components/modal-window/close';
+@import './components/modal-window/name';
+@import './components/modal-window/data';
 
 
